@@ -7,7 +7,7 @@ import AboutFeature from '@/components/sections/about/AboutFeature';
 import FeatureCardSeven from '@/components/sections/feature/FeatureCardSeven';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import PricingCardThree from '@/components/sections/pricing/PricingCardThree';
-import MetricCardOne from '@/components/sections/metric/MetricCardOne';
+import MetricCardOne from '@/components/sections/metrics/MetricCardOne';
 import TeamCardOne from '@/components/sections/team/TeamCardOne';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
@@ -15,7 +15,7 @@ import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import BlogCardOne from '@/components/sections/blog/BlogCardOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Trophy, Flag, Ticket, Calendar, BarChart3, Helmet, MessageSquare, Award, Mail, Twitter, Instagram, Youtube, Facebook, Zap, Users, Cpu, Star } from 'lucide-react';
+import { Trophy, Flag, Ticket, Calendar, BarChart3, MessageSquare, Award, Mail, Twitter, Instagram, Youtube, Facebook, Zap, Users, Cpu, Star, User } from 'lucide-react';
 
 export default function F1ChampionshipPage() {
   return (
@@ -134,7 +134,7 @@ export default function F1ChampionshipPage() {
           metrics={[
             {"id":"1","value":"23","title":"Races","description":"Grand Prix events across six continents","icon":Flag},
             {"id":"2","value":"10","title":"Teams","description":"Constructor teams competing for championship glory","icon":Users},
-            {"id":"3","value":"20","title":"Drivers","description":"Elite racers from around the world","icon":"User"},
+            {"id":"3","value":"20","title":"Drivers","description":"Elite racers from around the world","icon":User},
             {"id":"4","value":"350+","title":"km/h","description":"Maximum speeds achieved on racing circuits","icon":Zap}
           ]}
         />
@@ -145,7 +145,7 @@ export default function F1ChampionshipPage() {
           title="Star Drivers"
           description="Meet the world-class racing drivers competing in the 2024 Formula 1 Championship"
           tag="Driver Lineup"
-          tagIcon={Helmet}
+          tagIcon={MessageSquare}
           textboxLayout="default"
           gridVariant="uniform-all-items-equal"
           animationType="slide-up"
@@ -219,7 +219,6 @@ export default function F1ChampionshipPage() {
           title="F1 Racing News"
           description="Latest insights and analysis from the world of Formula 1 racing"
           tag="Racing Blog"
-          tagIcon="Newspaper"
           textboxLayout="default"
           animationType="slide-up"
           blogs={[
@@ -258,7 +257,7 @@ export default function F1ChampionshipPage() {
           socialLinks={[
             {"icon":Twitter,"href":"https://twitter.com/f1","ariaLabel":"Follow F1 on Twitter"},
             {"icon":Instagram,"href":"https://instagram.com/f1","ariaLabel":"Follow F1 on Instagram"},
-            {"icon":Youtube,"href":"https://youtube.com/f1","ariaLabel":"Subscribe to F1 on YouTube"},
+            {"icon":Youtube,"href":"https://youtube.com/f1","ariaLabel":"Subscribe F1 on YouTube"},
             {"icon":Facebook,"href":"https://facebook.com/formula1","ariaLabel":"Like F1 on Facebook"}
           ]}
         />
