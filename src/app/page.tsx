@@ -246,7 +246,7 @@ export default function F1ChampionshipPage() {
 
       <div id="footer" data-section="footer">
         <FooterSocial
-          brandName="F1 Championship"
+          logoText="F1 Championship"
           copyrightText="© 2024 Formula 1 World Championship"
           columns={[
             {"title":"Championship","items":[{"label":"Teams","href":"teams"},{"label":"Drivers","href":"drivers"},{"label":"Schedule","href":"schedule"},{"label":"Results","href":"results"}]},
